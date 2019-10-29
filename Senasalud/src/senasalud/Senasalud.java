@@ -19,13 +19,11 @@ public class Senasalud {
     public static void main(String[] args) {
     
         
-        String apellido=JOptionPane.showInputDialog(null,"Ingrese su apellido");
+        String color=JOptionPane.showInputDialog(null,"Ingrese su color favorito");
        
-        JOptionPane.showMessageDialog(null,"Su apellido es "+apellido);
+        JOptionPane.showMessageDialog(null,"Su color favorito es "+color);
         
-        int  edad=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese su edad"));
-       
-        JOptionPane.showMessageDialog(null,"Su edad es "+edad);
+        
         
     }
 }
