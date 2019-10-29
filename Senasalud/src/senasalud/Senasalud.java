@@ -20,6 +20,10 @@ public class Senasalud {
         String nombre=JOptionPane.showInputDialog(null,"Ingrese su nombre");
         
         JOptionPane.showMessageDialog(null,"Su nombre es "+nombre);
+        
+        String apellido=JOptionPane.showInputDialog(null,"Ingrese su apellido");
+       
+        JOptionPane.showMessageDialog(null,"Su apellido es "+apellido);
     }
     
 }
