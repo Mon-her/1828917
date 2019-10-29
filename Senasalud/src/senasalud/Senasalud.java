@@ -17,13 +17,15 @@ public class Senasalud {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String nombre=JOptionPane.showInputDialog(null,"Ingrese su nombre");
-        
-        JOptionPane.showMessageDialog(null,"Su nombre es "+nombre);
+    
         
         String apellido=JOptionPane.showInputDialog(null,"Ingrese su apellido");
        
         JOptionPane.showMessageDialog(null,"Su apellido es "+apellido);
+        
+        int  edad=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese su edad"));
+       
+        JOptionPane.showMessageDialog(null,"Su edad es "+edad);
+        
     }
-    
 }
